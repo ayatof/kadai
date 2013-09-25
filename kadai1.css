@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	width: 100%;
+	background-color: #000;
+	margin: 0 auto;
+	padding-bottom: 1px;
+	box-sizing: border-box;
+}
+#top {
+	background-color: #D2F3FF;
+	padding: 5px;
+}
+#top h1 {
+	font-size: 1.4em;
+}
+article.tweet {
+	margin: 2px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #FFF;
+}
+article.tweet header {
+	border-bottom: dashed #666 1px;
+}
+.twcontent {
+	display: -webkit-box;
+}
+.twcontent p {
+	-webkit-box-flex: 1;
+}
+.scname {
+	font-size: 0.7em;
+}
+.icon {
+	width: 40px;
+	height: 40px;
+	margin: 2px;
+}
